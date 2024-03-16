@@ -1,6 +1,6 @@
-In 2021, we were tasked to create a normalized SQL database with at least 5 tables. 
-We then had to provide a list of functional dependencies, confirm it was in Boyce Cod 
-normal form, draw up an ER diagram, and write a list of challenging queries for the database.
+In 2021, we were tasked to create a normalized SQL database  We then had to provide a list of 
+functional dependencies, confirm it was in Boyce Cod normal form, draw up an ER diagram, and 
+write a list of challenging queries for the database.
 
 Now, in 2024, I have revisited this project. In an effort to better present it, I have created 
 a GUI Python application using the PyQt5 and SQLite libraries. This application allows the user 
