@@ -5,7 +5,7 @@ import csv
 import sys
 import traceback
 
-class databaseMangaer:
+class DatabaseMangaer:
     """
     An interface for sqlite3 databases
     Made for use with my pyqt5 database showcase app
