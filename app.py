@@ -500,7 +500,7 @@ class Ui_MainWindow(object):
         """
             Creates and keeps track of pop up windows that show the tables
             Uses the button object(sender) as a dictionary key
-            This returns the relevant table query, and also stores/retrives the window object
+            This returns the relevant table query, and also stores/retrieves the window object
             this saves a lot of coding and allows for a dynamic amount of windows
         """
         sender = self.MainWindow.sender()
@@ -538,7 +538,7 @@ class Ui_MainWindow(object):
 
     def show_relevant_query_window(self):
         """
-        Similar principal to show_relevant_table_window().
+        Similar principle to show_relevant_table_window().
         Instead used for creating pop up with relevant query information
         """
         sender = self.MainWindow.sender()
@@ -576,7 +576,7 @@ class Ui_MainWindow(object):
 
     def corrolate_and_run_query(self):
         """
-        Uses dictionary to corrolate question button object with relevant query.
+        Uses dictionary to correlate question button object with relevant query.
         Then runs the query and updates main view table
         """
         sender = self.MainWindow.sender()
