@@ -75,7 +75,7 @@ class DatabaseMangaer:
     def run_query(self,query):
         #Runs SQLite query and returns data
 
-        #Check for drop statment
+        #Check for drop statement
         if len(query) >=4:
             queryLower = []
             for i in range(4):
