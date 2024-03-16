@@ -15,4 +15,5 @@ The pop out windows are defined respectively in [queryDialog.py](queryDialog.py)
 database interaction is handled by the database manager object defined in [databaseManager.py](databaseManager.py). 
 The main app is defined in [app.py](app.py). Please note this project is dependent on PyQt5.
 
-![DataViewDemo](https://github.com/ccomstoc/Database-Project-Showcase/assets/78567226/0c6f63a6-ab20-434d-a1d6-120ca409dffe)
+![Data View Demo](https://github.com/ccomstoc/Database-Project-Showcase/assets/78567226/8600420f-8411-46c4-ba4b-7d7fbec81620)
+
