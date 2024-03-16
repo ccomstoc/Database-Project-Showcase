@@ -14,3 +14,5 @@ reverted by pressing the reset tables button.
 The pop out windows are defined respectively in [queryDialog.py](queryDialog.py) and [tableDialog.py](tableDialog.py). All the 
 database interaction is handled by the database manager object defined in [databaseManager.py](databaseManager.py). 
 The main app is defined in [app.py](app.py). Please note this project is dependent on PyQt5.
+
+![DataViewDemo](https://github.com/ccomstoc/Database-Project-Showcase/assets/78567226/0c6f63a6-ab20-434d-a1d6-120ca409dffe)
