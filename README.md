@@ -8,7 +8,7 @@ to browse all the tables we created, query the database, and run any of our prem
 
 The left pane is for viewing the tables in a pop out window, the middle pane is for browsing 
 and running premade queries, and the right pane is for viewing the results of any query. 
-All intended data is stored in the folder defaultTables. Any table modification can be 
+All intended data is stored in the folder [defaultTables](defaultTables). Any table modification can be 
 reverted by pressing the reset tables button. 
 
 The pop out windows are defined respectively in [queryDialog.py](queryDialog.py) and [tableDialog.py](tableDialog.py). All the 
