@@ -11,6 +11,6 @@ and running premade queries, and the right pane is for viewing the results of an
 All intended data is stored in the folder defaultTables. Any table modification can be 
 reverted by pressing the reset tables button. 
 
-The pop out windows are defined respectively in queryDialog.py and tableDialog.py. All the 
-database interaction is handled by the database manager object defined in databaseManager.py. 
-The main app is defined in app.py. Please note this project is dependent on PyQt5.
+The pop out windows are defined respectively in [queryDialog.py](queryDialog.py) and [tableDialog.py](tableDialog.py). All the 
+database interaction is handled by the database manager object defined in [databaseManager.py](databaseManager.py). 
+The main app is defined in [app.py](app.py). Please note this project is dependent on PyQt5.
