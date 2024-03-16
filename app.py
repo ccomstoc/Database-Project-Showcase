@@ -6,13 +6,13 @@ from tableDialog import Ui_Table_Dialog
 from queryDialog import Ui_Query_Dialog
 
 
-import DatabaseMangaer
+import databaseMangaer
 
 
 class Ui_MainWindow(object):
     def __init__(self,*args,**kwargs):
         super(Ui_MainWindow,self).__init__(*args,**kwargs)
-        self.dbm = DatabaseMangaer.DatabaseMangaer("airport")
+        self.dbm = databaseMangaer.DatabaseMangaer("airport")
         self.window_dict = {}
         self.query_list = [
         """
@@ -629,7 +629,7 @@ class Ui_MainWindow(object):
         self.update_table(query)
 
     def reset_tables(self):
-        self.dbm.load_default_data()    
+        self.dbm.load_default_data()
 
 
 

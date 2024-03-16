@@ -1,7 +1,7 @@
 #author: Connor Comstock
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import DatabaseMangaer
+import databaseMangaer
 
 
 class Ui_Table_Dialog(object):
@@ -10,7 +10,7 @@ class Ui_Table_Dialog(object):
     """
     def __init__(self,window_title,*args,**kwargs):#(*,** take extra parameters, init is constuctor)
         super(Ui_Table_Dialog,self).__init__(*args,**kwargs)#Super.init calls QMainWindow constructor
-        self.dbm = DatabaseMangaer.DatabaseMangaer("airport")
+        self.dbm = databaseMangaer.DatabaseMangaer("airport")
         self.window_title = window_title
     def setupUi(self, Table_Dialog):
         self.Table_Dialog = Table_Dialog
