@@ -5,10 +5,10 @@ import csv
 import sys
 import traceback
 
-class DatabaseMangaer:
+class databaseMangaer:
     """
     An interface for sqlite3 databases
-    Made for use with my pyqt5 databse showcase app
+    Made for use with my pyqt5 database showcase app
     """
     def __init__(self, databaseName):
         self.databaseName = databaseName
