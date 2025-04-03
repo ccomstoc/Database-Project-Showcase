@@ -1,7 +1,7 @@
 #author: Connor Comstock
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import databaseMangaer
+import databaseManager
 
 
 class Ui_Table_Dialog(object):

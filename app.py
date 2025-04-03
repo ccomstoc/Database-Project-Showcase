@@ -6,7 +6,7 @@ from tableDialog import Ui_Table_Dialog
 from queryDialog import Ui_Query_Dialog
 
 
-import databaseMangaer
+import databaseManager
 
 
 class Ui_MainWindow(object):
