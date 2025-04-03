@@ -1,4 +1,4 @@
-*This project was completed when I was first learning python over a year ago, and because of this is structured poorly*
+*This project was completed when I was first learning python over a year ago, and because of this is structured poorly. I would like to refactor in the future*
 
 In 2021, we were tasked to create a normalized SQL database. We then had to provide a list of 
 functional dependencies, confirm it was in Boyce Cod normal form, draw up an ER diagram, and 
